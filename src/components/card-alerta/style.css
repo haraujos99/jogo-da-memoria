@@ -1,0 +1,52 @@
+.card-alerta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 430px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    padding: 70px 50px;
+    margin: 50px;
+}
+.btn-fechar{
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.cookie{
+    width: 85px;
+}
+.texto-card{
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.btn-principal{
+    all: unset;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    
+    
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.red{
+    background-color: #ED6755;
+    box-shadow: 0px 8px 10px rgba(237, 103, 85, 0.5);
+    ;
+}
+
+.blue{
+    background-color: #1C1B5E;
+    box-shadow: 0px 8px 10px rgba(28, 27, 94, 0.5);
+    ;
+}
